@@ -1,0 +1,17 @@
+faculty:
+  - name: Name goes here
+    role: research area goes here
+    image: /assets/images/team/placeholder.png
+    personal_url:
+
+phd_students:
+  - name: Name goes here
+    role: research area goes here
+    image: /assets/images/team/placeholder.png
+    personal_url:
+
+ras:
+  - name: Name goes here
+    role: research area goes here
+    image: /assets/images/team/placeholder.png
+    personal_url:
