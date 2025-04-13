@@ -9,6 +9,12 @@ phd_students:
     role: research area goes here
     image: /assets/images/team/placeholder.png
     personal_url:
+  
+  - name: Jiayi Nie
+    role: Design Space Exploration for AI Accleeratiors 
+    image: /assets/images/team/JiayiNie.JPG
+    personal_url: https://jiaeenie.github.io
+
 
 ras:
   - name: Name goes here
