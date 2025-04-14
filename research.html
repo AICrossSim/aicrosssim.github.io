@@ -1,0 +1,63 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
+<link rel="stylesheet" href="/assets/css/research.css">
+
+<div class="research-list">
+  {% for project in site.projects %}
+    <div class="research-item">
+      {% if project.image %}
+        <div class="project-image">
+          <a href="{{ project.webpage_url }}">
+            <img src="{{ project.image }}" alt="{{ project.title }}">
+          </a>
+        </div>
+      {% endif %}
+
+      <div class="project-content">
+        <h2>
+          <a href="{{ project.webpage_url }}">
+            {{ project.title }}
+          </a>
+          {% if project.conference %}
+            <span class="conference-tag">[{{ project.conference }}]</span>
+          {% endif %}
+        </h2>
+        
+        <div class="post-meta">
+          {% if project.author %}
+            <span class="post-author">{{ project.author }}</span>
+          {% endif %}
+        </div>
+        
+        {% if project.subtitle %}
+          <p class="post-subtitle">{{ project.subtitle }}</p>
+        {% endif %}
+
+        <div class="project-links">
+          <p>
+            {% assign links = "" %}
+            {% if project.webpage_url %}
+              {% assign links = links | append: '<a href="' | append: project.webpage_url | append: '">Webpage</a>' %}
+            {% endif %}
+            {% if project.github_url %}
+              {% if links != "" %}{% assign links = links | append: ' &nbsp;/&nbsp; ' %}{% endif %}
+              {% assign links = links | append: '<a href="' | append: project.github_url | append: '">Code</a>' %}
+            {% endif %}
+            {% if project.paper_url %}
+              {% if links != "" %}{% assign links = links | append: ' &nbsp;/&nbsp; ' %}{% endif %}
+              {% assign links = links | append: '<a href="' | append: project.paper_url | append: '">Paper</a>' %}
+            {% endif %}
+            {{ links | raw }}
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  {% else %}
+    <p>No projects found. Check <code>_projects/</code> folder.</p>
+  {% endfor %}
+</div>

@@ -1,3 +1,7 @@
 theme: minima
-name: ""
+name: "AICrossSim"
 title: null
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
