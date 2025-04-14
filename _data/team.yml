@@ -9,6 +9,10 @@ faculty:
     image: /assets/images/team/AaronZhao.jpg
     personal_url: https://aaron-zhao123.github.io/
 
+  - name: Jianyi Cheng
+    role: AI Accelerators & Compilers
+    image: /assets/images/team/JianyiCheng.JPG
+    personal_url: https://jianyicheng.github.io/
 
 phd_students:
   - name: Name goes here
