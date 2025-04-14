@@ -4,6 +4,12 @@ faculty:
     image: /assets/images/team/placeholder.png
     personal_url:
 
+  - name: Aaron Zhao
+    role: Efficient AI 
+    image: /assets/images/team/AaronZhao.jpg
+    personal_url: https://aaron-zhao123.github.io/
+
+
 phd_students:
   - name: Name goes here
     role: research area goes here
