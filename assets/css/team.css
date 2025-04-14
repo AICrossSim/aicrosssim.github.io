@@ -22,13 +22,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-start; 
     background: transparent;
     border: none;
     padding: 0;
     text-align: center;
-    height: 250px;
+    height: 100%; 
+    box-sizing: border-box;
     transition: transform 0.3s ease;
 }
 
@@ -43,6 +43,7 @@ body {
     border-radius: 8px;
     margin-bottom: 12px;
     border: 2px solid #ccc;
+    flex-shrink: 0;
 }
 
 .team-name {
