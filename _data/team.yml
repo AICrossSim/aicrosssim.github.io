@@ -14,6 +14,11 @@ faculty:
     image: /assets/images/team/JianyiCheng.JPG
     personal_url: https://jianyicheng.github.io/
 
+  - name: Timothy M. Jones
+    role: Compilers and computer architecture
+    image: /assets/images/team/TimothyJones.jpg
+    personal_url: https://www.cl.cam.ac.uk/~tmj32/
+
 phd_students:
   - name: Name goes here
     role: research area goes here
