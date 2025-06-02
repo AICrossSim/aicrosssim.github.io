@@ -25,7 +25,7 @@ phd_students:
     image: /assets/images/team/placeholder.png
     personal_url:
 
-  - name: Cheng
+  - name: Cheng Zhang
     role: Efficient AI
     image: /assets/images/team/ChengZhang.jpg
     personal_url: https://chengzhang-98.github.io/blog/
