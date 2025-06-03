@@ -24,6 +24,11 @@ phd_students:
     role: research area goes here
     image: /assets/images/team/placeholder.png
     personal_url:
+
+  - name: Cheng Zhang
+    role: Efficient AI
+    image: /assets/images/team/ChengZhang.jpg
+    personal_url: https://chengzhang-98.github.io/blog/
   
   - name: Jiayi Nie
     role: Design Space Exploration for AI Accelerators
