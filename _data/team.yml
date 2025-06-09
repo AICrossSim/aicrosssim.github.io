@@ -1,6 +1,7 @@
 pm:
   - name: Emma Formant
     image: /assets/images/team/EmmaFromant.jpg
+    email_addr: e.fromant@imperial.ac.uk
     personal_url:
 
 faculty:
