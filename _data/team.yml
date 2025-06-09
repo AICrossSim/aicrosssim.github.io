@@ -61,11 +61,20 @@ phd_students:
     image: /assets/images/team/GeorgeWu.png
     personal_url: https://www.linkedin.com/in/haoran-wu-a51329215/
 
+  - name: Jeffrey Wong
+    role: Efficient AI
+    image: /assets/images/team/JeffreyWong.png
+    personal_url: https://www.linkedin.com/in/jefrey-wong-b7206b247/
+
+  - name: Can Xiao
+    role: Efficient ML (More on Hardware)
+    image: /assets/images/team/CanXiao.jpeg
+    personal_url: https://www.linkedin.com/in/cano-xiao-609a33299/
 
 
 ras:
-  - name: Name goes here
-    role: research area goes here
-    image: /assets/images/team/placeholder.png
-    personal_url:
-
+ - name: Binglei Lou
+   role: Reconfigurable Computing
+   image: /assets/images/team/placeholder.png
+   personal_url: https://www.linkedin.com/in/bingleilou/
+  
