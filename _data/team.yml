@@ -1,14 +1,9 @@
 pm:
-  - name: Name goes here
-    image: /assets/images/team/placeholder.png
+  - name: Emma Formant
+    image: /assets/images/team/EmmaFromant.jpg
     personal_url:
 
 faculty:
-  - name: Name goes here
-    role: research area goes here
-    image: /assets/images/team/placeholder.png
-    personal_url:
-
   - name: Aaron Zhao
     role: Efficient AI 
     image: /assets/images/team/AaronZhao.jpg
@@ -24,12 +19,17 @@ faculty:
     image: /assets/images/team/TimothyJones.jpg
     personal_url: https://www.cl.cam.ac.uk/~tmj32/
 
-phd_students:
-  - name: Name goes here
-    role: research area goes here
-    image: /assets/images/team/placeholder.png
-    personal_url:
+  - name: Rika Antonova 
+    role: Co-design, Reinforcement Learning
+    image: /assets/images/team/rika_photo.jpg
+    personal_url: https://contactrika.github.io
+  
+  - name: George A. Constantinides
+    role: Hardware-based computation
+    image: /assets/images/team/George-Constantinides.jpg
+    personal_url: https://uk.linkedin.com/in/george-constantinides-5b12098/
 
+phd_students:
   - name: Cheng Zhang
     role: Efficient AI
     image: /assets/images/team/ChengZhang.jpg
@@ -39,6 +39,16 @@ phd_students:
     role: Design Space Exploration for AI Accelerators
     image: /assets/images/team/JiayiNie.JPG
     personal_url: https://jiaeenie.github.io
+  
+  - name: Zhiwen Mo
+    role: GPU Microarchitecture, Kernel Optimization
+    image: /assets/images/team/ZhiwenMo.JPEG
+    personal_url: https://hamerlate.github.io
+  
+  - name: Przemyslaw Forys
+    role: AI Hardware Acceleration
+    image: /assets/images/team/PrzemyslawForys.jpg
+    personal_url: https://www.linkedin.com/in/przemyslaw-forys-58598b190/
 
 
 ras:
