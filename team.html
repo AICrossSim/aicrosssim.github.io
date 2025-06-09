@@ -6,7 +6,7 @@ permalink: /team/
 <link rel="stylesheet" href="/assets/css/team.css">
 
 <div class="team-section">
-  <h2>Project Manager</h2>
+  <h2 class="small-heading">Project Manager</h2>
   <div class="team-grid">
     {% assign sorted_pms = site.data.team.pm | sort: 'name' %}
     {% for member in sorted_pms %}
@@ -19,7 +19,7 @@ permalink: /team/
 </div>
 
 <div class="team-section">
-  <h2>Faculty</h2>
+  <h2 class="small-heading">Faculty</h2>
   <div class="team-grid">
     {% assign sorted_faculty = site.data.team.faculty | sort: 'name' %}
     {% for member in sorted_faculty %}
@@ -33,7 +33,7 @@ permalink: /team/
 </div>
 
 <div class="team-section">
-  <h2>PhD Students</h2>
+  <h2 class="small-heading">PhD Students</h2>
   <div class="team-grid">
     {% assign sorted_phds = site.data.team.phd_students | sort: 'name' %}
     {% for member in sorted_phds %}
@@ -47,7 +47,7 @@ permalink: /team/
 </div>
 
 <div class="team-section">
-  <h2>Research Associates</h2>
+  <h2 class="small-heading">Research Associates</h2>
   <div class="team-grid">
     {% assign sorted_ras = site.data.team.ras | sort: 'name' %}
     {% for member in sorted_ras %}

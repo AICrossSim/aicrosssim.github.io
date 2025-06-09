@@ -9,6 +9,10 @@ body {
     margin-bottom: 10px;
 }
 
+.small-heading {
+  font-size: 1.4rem;
+}
+
 .team-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

@@ -28,6 +28,12 @@ faculty:
     role: Hardware-based computation
     image: /assets/images/team/George-Constantinides.jpg
     personal_url: https://uk.linkedin.com/in/george-constantinides-5b12098/
+  
+  - name: Robert Mullins
+    role: Machine Learning, Accelerators, Open-source Hardware
+    image: /assets/images/team/RobertMullins.webp
+    personal_url: https://www.cl.cam.ac.uk/~rdm34/
+
 
 phd_students:
   - name: Cheng Zhang
@@ -47,7 +53,7 @@ phd_students:
   
   - name: Przemyslaw Forys
     role: AI Hardware Acceleration
-    image: /assets/images/team/PrzemyslawForys.jpg
+    image: /assets/images/team/PrzemyslawForys.JPG
     personal_url: https://www.linkedin.com/in/przemyslaw-forys-58598b190/
 
   - name: George Wu
