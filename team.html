@@ -6,9 +6,23 @@ permalink: /team/
 <link rel="stylesheet" href="/assets/css/team.css">
 
 <div class="team-section">
+  <h2>Project Manager</h2>
+  <div class="team-grid">
+    {% assign sorted_pms = site.data.team.pm | sort: 'name' %}
+    {% for member in sorted_pms %}
+    <div class="team-card">
+      <img src="{{ member.image }}" alt="{{ member.name }}" class="team-img">
+      <a href="{{ member.personal_url }}" class="team-name">{{ member.name }}</a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="team-section">
   <h2>Faculty</h2>
   <div class="team-grid">
-    {% for member in site.data.team.faculty %}
+    {% assign sorted_faculty = site.data.team.faculty | sort: 'name' %}
+    {% for member in sorted_faculty %}
     <div class="team-card">
       <img src="{{ member.image }}" alt="{{ member.name }}" class="team-img">
       <a href="{{ member.personal_url }}" class="team-name">{{ member.name }}</a>
@@ -19,9 +33,10 @@ permalink: /team/
 </div>
 
 <div class="team-section">
-  <h2>PhD Student</h2>
+  <h2>PhD Students</h2>
   <div class="team-grid">
-    {% for member in site.data.team.phd_students %}
+    {% assign sorted_phds = site.data.team.phd_students | sort: 'name' %}
+    {% for member in sorted_phds %}
     <div class="team-card">
       <img src="{{ member.image }}" alt="{{ member.name }}" class="team-img">
       <a href="{{ member.personal_url }}" class="team-name">{{ member.name }}</a>
@@ -32,9 +47,10 @@ permalink: /team/
 </div>
 
 <div class="team-section">
-  <h2>Research Associate</h2>
+  <h2>Research Associates</h2>
   <div class="team-grid">
-    {% for member in site.data.team.ras %}
+    {% assign sorted_ras = site.data.team.ras | sort: 'name' %}
+    {% for member in sorted_ras %}
     <div class="team-card">
       <img src="{{ member.image }}" alt="{{ member.name }}" class="team-img">
       <a href="{{ member.personal_url }}" class="team-name">{{ member.name }}</a>
