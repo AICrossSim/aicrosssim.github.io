@@ -5,21 +5,32 @@ permalink: /team/
 ---
 <link rel="stylesheet" href="/assets/css/team.css">
 
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/events/Group.jpg" 
+       alt="AICrossSim Team Photo" 
+       style="max-width: 100%; width: 100%; max-width: 1000px; display: block; margin: 0 auto;">
+</div>
+
 <div class="team-section">
-  <h2>Project Manager</h2>
+  <h2 class="small-heading">Project Manager</h2>
   <div class="team-grid">
     {% assign sorted_pms = site.data.team.pm | sort: 'name' %}
     {% for member in sorted_pms %}
     <div class="team-card">
       <img src="{{ member.image }}" alt="{{ member.name }}" class="team-img">
-      <a href="{{ member.personal_url }}" class="team-name">{{ member.name }}</a>
+      {% if member.personal_url %}
+        <a href="{{ member.personal_url }}" class="team-name">{{ member.name }}</a>
+      {% else %}
+        <span class="team-name">{{ member.name }}</span>
+      {% endif %}
+      <div class="team-role">{{ member.email_addr }}</div>
     </div>
     {% endfor %}
   </div>
 </div>
 
 <div class="team-section">
-  <h2>Faculty</h2>
+  <h2 class="small-heading">Faculty</h2>
   <div class="team-grid">
     {% assign sorted_faculty = site.data.team.faculty | sort: 'name' %}
     {% for member in sorted_faculty %}
@@ -33,7 +44,7 @@ permalink: /team/
 </div>
 
 <div class="team-section">
-  <h2>PhD Students</h2>
+  <h2 class="small-heading">PhD Students</h2>
   <div class="team-grid">
     {% assign sorted_phds = site.data.team.phd_students | sort: 'name' %}
     {% for member in sorted_phds %}
@@ -47,7 +58,7 @@ permalink: /team/
 </div>
 
 <div class="team-section">
-  <h2>Research Associates</h2>
+  <h2 class="small-heading">Research Associates</h2>
   <div class="team-grid">
     {% assign sorted_ras = site.data.team.ras | sort: 'name' %}
     {% for member in sorted_ras %}
