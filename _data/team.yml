@@ -39,7 +39,7 @@ phd_students:
     role: Design Space Exploration for AI Accelerators
     image: /assets/images/team/JiayiNie.JPG
     personal_url: https://jiaeenie.github.io
-  
+
   - name: Zhiwen Mo
     role: GPU Microarchitecture, Kernel Optimization
     image: /assets/images/team/ZhiwenMo.JPEG
@@ -49,6 +49,12 @@ phd_students:
     role: AI Hardware Acceleration
     image: /assets/images/team/PrzemyslawForys.jpg
     personal_url: https://www.linkedin.com/in/przemyslaw-forys-58598b190/
+
+  - name: George Wu
+    role: ML Accelerators
+    image: /assets/images/team/GeorgeWu.png
+    personal_url: https://www.linkedin.com/in/haoran-wu-a51329215/
+
 
 
 ras:
