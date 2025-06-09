@@ -1,3 +1,8 @@
+pm:
+  - name: Name goes here
+    image: /assets/images/team/placeholder.png
+    personal_url:
+
 faculty:
   - name: Name goes here
     role: research area goes here
@@ -41,3 +46,4 @@ ras:
     role: research area goes here
     image: /assets/images/team/placeholder.png
     personal_url:
+
