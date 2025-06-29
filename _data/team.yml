@@ -72,6 +72,11 @@ phd_students:
     image: /assets/images/team/CanXiao.jpeg
     personal_url: https://www.linkedin.com/in/cano-xiao-609a33299/
 
+  - name: Dayou Du
+    role: AI Hardware Acceleration
+    image: /assets/images/team/Dayou.jpg
+    personal_url: https://dd-duda.github.io/
+
 
 ras:
  - name: Binglei Lou
