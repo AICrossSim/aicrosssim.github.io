@@ -35,6 +35,20 @@ faculty:
     image: /assets/images/team/RobertMullins.webp
     personal_url: https://www.cl.cam.ac.uk/~rdm34/
 
+  - name: Luo Mai
+    role: Computer systems, machine learning, and data management
+    image: /assets/images/team/LuoMai.jpg
+    personal_url: https://luomai.github.io
+
+  - name: Jackson Woodruff
+    role: 
+    image: /assets/images/team/Jackson.jpg
+    personal_url: https://jacksonwoodruff.com
+
+  - name: Michael O'Boyle
+    role: 
+    image: /assets/images/team/mob7.jpg
+    personal_url: https://www.dcs.ed.ac.uk/home/mob/
 
 phd_students:
   - name: Cheng Zhang
@@ -45,7 +59,7 @@ phd_students:
   - name: Jiayi Nie
     role: Design Space Exploration for AI Accelerators
     image: /assets/images/team/JiayiNie.JPG
-    personal_url: https://jiaeenie.github.io
+    personal_url: https://www.linkedin.com/in/jiaeenie
 
   - name: Zhiwen Mo
     role: GPU Microarchitecture, Kernel Optimization
@@ -77,10 +91,24 @@ phd_students:
     image: /assets/images/team/Dayou.jpg
     personal_url: https://dd-duda.github.io/
 
+  - name: Yao Fu
+    role: Efficient AI systems
+    image: /assets/images/team/yaofu.jpg
+    personal_url: https://www.linkedin.com/in/yao-fu-30/
+  
+  - name: Mike Wang
+    role: 
+    image: /assets/images/team/mikewang.jpg
+    personal_url: 
 
 ras:
  - name: Binglei Lou
    role: Reconfigurable Computing
    image: /assets/images/team/placeholder.png
    personal_url: https://www.linkedin.com/in/bingleilou/
+
+ - name: Gary Guo
+   role: 
+   image: /assets/images/team/placeholder.png
+   personal_url: https://garyguo.net
   

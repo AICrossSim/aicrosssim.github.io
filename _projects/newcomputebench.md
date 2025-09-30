@@ -7,5 +7,5 @@ subtitle: "A benchmark suite for the new compute paradigm (Spiking neural networ
 conference: 
 webpage_url: https://aicrosssim.github.io/NewComputeBench/
 github_url: https://github.com/AICrossSim/NewComputeBench
-paper_url:  https://aicrosssim.github.io/NewComputeBench/
+paper_url:  
 ---

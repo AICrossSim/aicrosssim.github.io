@@ -51,6 +51,10 @@ permalink: /research/
               {% if links != "" %}{% assign links = links | append: ' &nbsp;/&nbsp; ' %}{% endif %}
               {% assign links = links | append: '<a href="' | append: project.paper_url | append: '">Paper</a>' %}
             {% endif %}
+            {% if project.arxiv_url %}
+              {% if links != "" %}{% assign links = links | append: ' &nbsp;/&nbsp; ' %}{% endif %}
+              {% assign links = links | append: '<a href="' | append: project.arxiv_url | append: '">Arxiv</a>' %}
+            {% endif %}
             {{ links | raw }}
           </p>
         </div>
