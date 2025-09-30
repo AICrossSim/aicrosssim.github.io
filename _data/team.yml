@@ -57,7 +57,7 @@ phd_students:
     personal_url: https://chengzhang-98.github.io/blog/
   
   - name: Jiayi Nie
-    role: Design Space Exploration for AI Accelerators
+    role: Co-Design of Foundation Models and AI Accelerators
     image: /assets/images/team/JiayiNie.JPG
     personal_url: https://www.linkedin.com/in/jiaeenie
 
@@ -97,8 +97,18 @@ phd_students:
     personal_url: https://www.linkedin.com/in/yao-fu-30/
   
   - name: Mike Wang
-    role: 
+    role: Network-on-chip for AI workload and performance estimator
     image: /assets/images/team/mikewang.jpg
+    personal_url: https://www.linkedin.com/in/yichieh-wang-a3b60817b/
+
+  - name: Haocheng Xiao
+    role: 
+    image: /assets/images/team/haocheng.jpeg
+    personal_url: 
+
+  - name: Yanwei Ye
+    role: Compilers for AI accelerators
+    image: /assets/images/team/YanweiYe.jpeg
     personal_url: 
 
 ras:
