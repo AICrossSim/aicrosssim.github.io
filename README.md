@@ -26,18 +26,5 @@ This guide explains how to add team members and research projects to our website
 ## Adding Research Projects
 
 1. Create a new file in `_projects/`.
-2. Use the template `_projects/example_research_template.md`.
-3. Include a cover image in `assets/images/research/` (Refer to [This Commit](https://github.com/AICrossSim/aicrosssim.github.io/commit/b70d6aa02202b4062ff55d6142168a419b403ae9
+2. Include a cover image in `assets/images/research/` (Refer to [This Commit](https://github.com/AICrossSim/aicrosssim.github.io/commit/b70d6aa02202b4062ff55d6142168a419b403ae9
 ) for an example).
-
-
-## Submission Process
-
-1. **Create branch**:  
-   `git checkout -b content/add-{name-or-project}`  
-   *(e.g. `add-member-member_name` or `add-project-project_name`)*
-
-3. **Commit changes**:  
-   `git commit -m "Add: [Name/Project]"`
-
-4. **Open Pull Request**.
