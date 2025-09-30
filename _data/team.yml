@@ -111,6 +111,11 @@ phd_students:
     image: /assets/images/team/YanweiYe.jpeg
     personal_url: 
 
+  - name: Timi Adeniran
+    role: Performance Modelling for Architectural Design-Space Exploration
+    image: /assets/images/team/Timi.jpg
+    personal_url: https://www.linkedin.com/in/oluwatimilehin/
+
 ras:
  - name: Binglei Lou
    role: Reconfigurable Computing
