@@ -126,15 +126,19 @@ phd_students:
     image: /assets/images/team/TairanXu.jpg
     personal_url: https://www.linkedin.com/in/tairanxu/
 
+  - name: Man-Kit Sit
+    role: Efficient AI training
+    image: /assets/images/team/Man-KitSit.jpeg
+    personal_url: https://mksit.me/
 
 ras:
  - name: Binglei Lou
    role: Reconfigurable Computing
-   image: /assets/images/team/placeholder.png
+   image: /assets/images/team/BingleiLou.jpeg
    personal_url: https://www.linkedin.com/in/bingleilou/
 
  - name: Gary Guo
-   role: 
-   image: /assets/images/team/placeholder.png
+   role: Computer Architecture
+   image: /assets/images/team/Gary.jpeg
    personal_url: https://garyguo.net
   
