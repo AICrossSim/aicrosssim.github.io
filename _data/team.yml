@@ -41,7 +41,7 @@ faculty:
     personal_url: https://luomai.github.io
 
   - name: Jackson Woodruff
-    role: 
+    role: Compilers for AI accelerators
     image: /assets/images/team/jackson.jpg
     personal_url: https://jacksonwoodruff.com
 
@@ -49,6 +49,11 @@ faculty:
     role: 
     image: /assets/images/team/mob7.jpg
     personal_url: https://www.dcs.ed.ac.uk/home/mob/
+
+  - name: Wayne Luk
+    role: Custom computing and AI 
+    image: /assets/images/team/Prof-Wayne-Luk-43.png
+    personal_url: https://www.doc.ic.ac.uk/~wl/
 
 phd_students:
   - name: Cheng Zhang
@@ -115,6 +120,12 @@ phd_students:
     role: Performance Modelling for Architectural Design-Space Exploration
     image: /assets/images/team/Timi.jpg
     personal_url: https://www.linkedin.com/in/oluwatimilehin/
+  
+  - name: Tairan Xu
+    role: Efficient AI systems
+    image: /assets/images/team/TairanXu.jpg
+    personal_url: https://www.linkedin.com/in/tairanxu/
+
 
 ras:
  - name: Binglei Lou
