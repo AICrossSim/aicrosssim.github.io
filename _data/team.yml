@@ -46,7 +46,7 @@ faculty:
     personal_url: https://jacksonwoodruff.com
 
   - name: Michael O'Boyle
-    role: 
+    role: Architecture, OS and Compilers
     image: /assets/images/team/mob7.jpg
     personal_url: https://www.dcs.ed.ac.uk/home/mob/
 
@@ -141,4 +141,9 @@ ras:
    role: Computer Architecture
    image: /assets/images/team/Gary.jpeg
    personal_url: https://garyguo.net
+  
+ - name: Yao Lai
+   role: Electronic Design Automation
+   image: /assets/images/team/YaoLai.jpg
+   personal_url: https://laiyao1.github.io/
   

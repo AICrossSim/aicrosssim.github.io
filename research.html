@@ -11,17 +11,23 @@ permalink: /research/
     <div class="research-item">
       {% if project.image %}
         <div class="project-image">
-          <a href="{{ project.webpage_url }}">
+          {% if project.webpage_url %}
+            <a href="{{ project.webpage_url }}">
+              <img src="{{ project.image }}" alt="{{ project.title }}">
+            </a>
+          {% else %}
             <img src="{{ project.image }}" alt="{{ project.title }}">
-          </a>
+          {% endif %}
         </div>
       {% endif %}
 
       <div class="project-content">
         <h2>
-          <a href="{{ project.webpage_url }}">
+          {% if project.webpage_url %}
+            <a href="{{ project.webpage_url }}">{{ project.title }}</a>
+          {% else %}
             {{ project.title }}
-          </a>
+          {% endif %}
           {% if project.conference %}
             <span class="conference-tag">[{{ project.conference }}]</span>
           {% endif %}
